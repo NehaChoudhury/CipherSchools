@@ -1,0 +1,11 @@
+MERN stack is a framework that is used for full stack web development. Each letter in the word MERN stands for MongoDB, Express, React, Node which makes us eligible for being a full stack web developer. 
+
+INSTALLING IDE:
+BROWSER--> Installing Node.js (Move forward with the LTS version)
+
+After installing the IDE :
+Open terminal .
+Type node --v (checks the installed version)
+Next, npm -v(tells us the npm version installed)
+
+Download the Visual Studio.
