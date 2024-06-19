@@ -1,0 +1,14 @@
+1. Simple Selector
+    ~Element Selector
+    ~id selector
+    ~class selector
+    ~universal selector
+    ~grouping selector
+2. Combinator Selector
+    ~Descendent Selector
+    ~Child Selector
+    ~Adjacent Sibling Selector
+    ~General Sibling Selector
+3. Pseudo-class Selector
+4. Pseudo-element Selector
+5. Attribute Selector
