@@ -1,0 +1,62 @@
+/*Element Selector*/
+p {
+    color:darkgreen;
+}
+
+/*ID Selector*/
+#myParagraph {
+    text-align: center;
+}
+
+/*Class Selector*/
+.centre-paragraph {
+    color:blue;
+    text-align: center;
+}
+
+/*Universal Selector*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Group Selector*/
+h1,blockquote,p {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/*Descendent Selector*/
+div p {
+    background-color: yellow;
+}
+
+/*Child Selector 
+(NOTE: Every descendent is a child but every child is not a descendent)*/
+div > p {
+    background-color: cyan;
+}
+
+/*Adjacent Sibling Selector*/
+div + p {
+background-color: yellow;
+}
+
+/*General Sibling Selector*/
+div ~ p {
+    background-color: yellow;
+    }
+
+/*Pseudo class Selector*/
+div ~ p:hover {
+    background-color: yellow;
+}
+
+/*Pseudo element Selector*/
+div ~ p ::first-letter{
+    color: red;
+}
+
+/*Attribute Selector*/
+a[target]{
+    background-color: cyan;
+}
